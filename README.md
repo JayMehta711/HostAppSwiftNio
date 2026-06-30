@@ -53,11 +53,11 @@ HostAppSwiftNioUITests/
 
 ### Book list screen
 
-![Book list screen](Screenshots/book-list-screenshot.svg)
+![Book list screen](Screenshots/book-list-screenshot.png)
 
 ### Mock server control panel
 
-![Mock server control panel](Screenshots/control-panel-screenshot.svg)
+![Mock server control panel](Screenshots/control-panel-screenshot.png)
 
 ## Notes
 
