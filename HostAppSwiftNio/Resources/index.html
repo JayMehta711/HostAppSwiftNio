@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwiftNIO Products</title>
+    <style>
+        :root { color-scheme: light; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif; background: #0b1222; color: #e8eef8; }
+        body { margin: 0; min-height: 100vh; background: linear-gradient(180deg, #111827 0%, #0b1222 100%); }
+        .page { max-width: 1040px; margin: 0 auto; padding: 32px 24px 48px; }
+        .hero { text-align: center; margin-bottom: 32px; }
+        .hero h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -0.04em; }
+        .hero p { margin: 12px auto 0; max-width: 680px; color: #cbd5e1; }
+        .panel { background: rgba(15, 23, 42, 0.92); border: 1px solid rgba(148, 163, 184, 0.12); border-radius: 28px; padding: 24px; box-shadow: 0 32px 64px rgba(15, 23, 42, 0.35); }
+        .panel-item { border-bottom: 1px solid rgba(148, 163, 184, 0.12); padding: 18px 0; }
+        .panel-item:last-child { border-bottom: none; }
+        .panel-item-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+        .path { display: inline-block; margin-top: 6px; font-size: 0.95rem; color: #94a3b8; }
+        .status { padding: 10px 16px; border-radius: 999px; background: rgba(16, 185, 129, 0.15); color: #a7f3d0; font-weight: 700; font-size: 0.95rem; }
+        .panel-item-body { margin-top: 14px; padding-left: 4px; }
+        .product-title { font-size: 1.15rem; font-weight: 700; color: #f8fafc; }
+        .product-meta { margin-top: 8px; color: #94a3b8; font-size: 0.94rem; }
+        .product-copy { margin-top: 10px; line-height: 1.75; color: #cbd5e1; }
+        .button-row { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+        .button { display: inline-flex; align-items: center; justify-content: center; min-width: 160px; gap: 8px; padding: 14px 18px; border-radius: 999px; border: 1px solid rgba(148, 163, 184, 0.16); background: #1e293b; color: #e2e8f0; text-decoration: none; font-weight: 600; transition: transform 0.2s ease, background 0.2s ease; }
+        .button:hover { transform: translateY(-1px); background: #334155; }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="hero">
+            <h1>SwiftNIO Mock Server Products</h1>
+            <p>Interactive product panel for the /products endpoint. Use this browser view to inspect available items and confirm the mock API response.</p>
+        </div>
+        <div class="panel">
+            <div class="panel-item">
+                <div class="panel-item-header">
+                    <div>
+                        <strong>Products API</strong>
+                        <span class="path">GET /products</span>
+                    </div>
+                    <div class="status">200 OK</div>
+                </div>
+                <div class="panel-item-body">
+                    <div class="product-title">Modern SwiftUI Patterns</div>
+                    <div class="product-meta">Author: Sara Holmes · Price: $24.99</div>
+                    <div class="product-copy">Practical guidance for building modern SwiftUI apps with clean architecture, navigation, and animations.</div>
+                </div>
+            </div>
+            <div class="panel-item">
+                <div class="panel-item-header">
+                    <div>
+                        <strong>Products API</strong>
+                        <span class="path">GET /products</span>
+                    </div>
+                    <div class="status">200 OK</div>
+                </div>
+                <div class="panel-item-body">
+                    <div class="product-title">Networking with SwiftNIO</div>
+                    <div class="product-meta">Author: Jordan Lee · Price: $29.99</div>
+                    <div class="product-copy">Learn how to build fast HTTP services, mock APIs, and a responsive backend layer with SwiftNIO.</div>
+                </div>
+            </div>
+            <div class="panel-item">
+                <div class="panel-item-header">
+                    <div>
+                        <strong>Products API</strong>
+                        <span class="path">GET /products</span>
+                    </div>
+                    <div class="status">200 OK</div>
+                </div>
+                <div class="panel-item-body">
+                    <div class="product-title">Designing Great iOS Interfaces</div>
+                    <div class="product-meta">Author: Priya Kapoor · Price: $19.99</div>
+                    <div class="product-copy">Create polished mobile interfaces using SwiftUI and modern UX patterns for real-world shoppers.</div>
+                </div>
+            </div>
+            <div class="panel-item">
+                <div class="panel-item-header">
+                    <div>
+                        <strong>Products API</strong>
+                        <span class="path">GET /products</span>
+                    </div>
+                    <div class="status">200 OK</div>
+                </div>
+                <div class="panel-item-body">
+                    <div class="product-title">Swift Testing Essentials</div>
+                    <div class="product-meta">Author: Alex Chen · Price: $21.99</div>
+                    <div class="product-copy">Master the art of testing Swift applications with robust unit and UI test techniques.</div>
+                </div>
+            </div>
+        </div>
+        <div class="button-row">
+            <a class="button" href="/products">View Products</a>
+            <a class="button" href="/index.html">Reload Home</a>
+        </div>
+    </div>
+</body>
+</html>
