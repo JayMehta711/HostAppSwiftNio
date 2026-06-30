@@ -53,7 +53,7 @@ HostAppSwiftNioUITests/
 
 ### Book list screen
 
-![Book list screen]<img src="Screenshots/book-list-screenshot.png" width="350">
+<img src="Screenshots/book-list-screenshot.png" width="250">
 
 ### Mock server control panel
 
