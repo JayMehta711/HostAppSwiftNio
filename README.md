@@ -49,6 +49,16 @@ HostAppSwiftNioUITests/
 3. The mock server starts automatically on `http://127.0.0.1:8080`.
 4. Open `http://127.0.0.1:8080/products` in a browser to access the control panel.
 
+## Screenshots
+
+### Book list screen
+
+![Book list screen](Screenshots/book-list-screenshot.svg)
+
+### Mock server control panel
+
+![Mock server control panel](Screenshots/control-panel-screenshot.svg)
+
 ## Notes
 
 - The browser panel edits the response for `/api/products`.
